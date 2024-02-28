@@ -12,7 +12,7 @@ const Cart = (props) => {
 
  
     return (
-        <div className=''>
+        <div className='cart'>
             <h1 className='text-danger text-center mt-4 mb-4'>Added Course</h1>
             <h3 className='text-center mt-4 mb-4'><small>Add Courses: {cart.length}</small></h3>
             <h3 className='text-center mt-4 mb-4'><small>Total Price: {total}$</small></h3>
